@@ -26,20 +26,23 @@
         <div id="wrapper">
 
             <!-- Content Wrapper -->
-            <div id="content-wrapper" class="d-flex flex-column">
+            <div id="content-wrapper" class="">
 
                 <!-- Main Content -->
                 <div id="content">
 
-                  <h1>Comparing Books in the National Collection</h1>
-                  <h2 id="subtitle-text">The Assessing the Physical Condition of the National Collection (ANC) project compares the physical, chemical and optical characteristics of 500 “identical” books from five large research libraries in distinct regions of the United States.This tool allows you to compare books used in the ANC project side-by-side.</h2>
+                    <h1>Comparing Books in the National Collection</h1>
+                    <h2 id="subtitle-text">The Assessing the Physical Condition of the National Collection (ANC) project compares the physical, chemical and optical characteristics of 500 “identical” books from five large research libraries in distinct regions of the
+                        United States.This tool allows you to compare books used in the ANC project side-by-side.</h2>
 
                     <div class="input-group shadow" id="search-section">
                         <input type="text" id="Machiavelli" class="form-control bg-light border-0 small" placeholder="Machiavelli's The Prince" aria-label="Search" aria-describedby="basic-addon2">
                         <div class="input-group-append">
                             <button class="btn btn-primary" type="button">
                                 <div class="fas fa-search fa-sm">
-                                    <a id="search-books"> Search books </a>
+                                    <a id="search-books">
+                                        Search books
+                                    </a>
                                 </div>
                             </button>
                         </div>
@@ -49,19 +52,241 @@
                     <!-- Begin Page Content -->
                     <div class="container-fluid">
 
-                        <!-- Content Row -->
-                        <div class="row">
+                        <div>
+                            <div id="cards-horizontal" class="">
 
-                            <div class="col-lg-6 mb-4">
-
-                                <!-- Approach -->
-                                <div class="card shadow mb-4">
-                                    <div class="card-header py-3">
-                                        <h6 class="m-0 font-weight-bold text-primary">Development Approach</h6>
+                                <div id="book1" class="shadow ">
+                                    <div>
+                                        <img id="book1-image" src="https://cultura.biografieonline.it/wp-content/uploads/2017/05/Il-Principe-Machiavelli-Riassunto.jpg" alt="the prince">
+                                        <h3>Il Principe</h3>
                                     </div>
-                                    <div class="card-body">
-                                        <p>SB Admin 2 makes extensive use of Bootstrap 4 utility classes in order to reduce CSS bloat and poor page performance. Custom CSS classes are used to create custom components and custom utility classes.</p>
-                                        <p class="mb-0">Before working with this theme, you should become familiar with the Bootstrap framework, especially the utility classes.</p>
+                                    <h4>Collection</h4>
+                                    <h5>University of Washington</h5>
+                                    <h4>Average Color at 2° in RGB</h4>
+                                    <div id="edge">
+                                        <div class=" color-title">Edge</div>
+                                        <div id="edge-color-text" class="rgb-color-text">252 215 120</div>
+                                    </div>
+                                    <div id="inset">
+                                        <div class=" color-title">Inset</div>
+                                        <div id="inset-color-text" class="rgb-color-text">252 214 162</div>
+                                    </div>
+                                    <div id="gutter">
+                                        <div class=" color-title">Edge</div>
+                                        <div id="gutter-color-text" class="rgb-color-text">252 209 150</div>
+                                    </div>
+                                    <h4>Publisher Info</h4>
+                                    <h5 id="publisher-name">American News Company</h5>
+                                    <h5 id="publisher-location">Seattle, WA, USA</h5>
+
+                                    <h4>Overall Condition</h4>
+                                    <h5 id="book-condition">Lendable</h5>
+
+                                    <h4>Damage</h4>
+                                    <h5 id="damages">Worn edges, yellowing, discoloring</h5>
+
+                                    <h4>History</h4>
+                                    <h5 id="history-provenance">Marginalia, minor written annotations</h5>
+
+                                    <div id="see-more" class="mb-4">
+                                        <a href="#" class="btn btn-sm btn-primary shadow-sm">
+                                            <i class=" text-white-50"></i>
+                                            More</a>
+                                    </div>
+                                </div>
+                                <div id="book2" class="shadow ">
+                                    <div>
+                                        <img id="book1-image" src="https://cultura.biografieonline.it/wp-content/uploads/2017/05/Il-Principe-Machiavelli-Riassunto.jpg" alt="the prince">
+                                        <h3>Il Principe</h3>
+                                    </div>
+                                    <h4>Collection</h4>
+                                    <h5>University of Washington</h5>
+                                    <h4>Average Color at 2° in RGB</h4>
+                                    <div id="edge">
+                                        <div class=" color-title">Edge</div>
+                                        <div id="edge-color-text" class="rgb-color-text">252 215 120</div>
+                                    </div>
+                                    <div id="inset">
+                                        <div class=" color-title">Inset</div>
+                                        <div id="inset-color-text" class="rgb-color-text">252 214 162</div>
+                                    </div>
+                                    <div id="gutter">
+                                        <div class=" color-title">Edge</div>
+                                        <div id="gutter-color-text" class="rgb-color-text">252 209 150</div>
+                                    </div>
+                                    <h4>Publisher Info</h4>
+                                    <h5 id="publisher-name">American News Company</h5>
+                                    <h5 id="publisher-location">Seattle, WA, USA</h5>
+
+                                    <h4>Overall Condition</h4>
+                                    <h5 id="book-condition">Lendable</h5>
+
+                                    <h4>Damage</h4>
+                                    <h5 id="damages">Worn edges, yellowing, discoloring</h5>
+
+                                    <h4>History</h4>
+                                    <h5 id="history-provenance">Marginalia, minor written annotations</h5>
+
+                                    <div id="see-more" class="mb-4">
+                                        <a href="#" class="btn btn-sm btn-primary shadow-sm">
+                                            <i class=" text-white-50"></i>
+                                            More</a>
+                                    </div>
+                                </div>
+                                <div id="book3" class="shadow ">
+                                    <div>
+                                        <img id="book1-image" src="https://cultura.biografieonline.it/wp-content/uploads/2017/05/Il-Principe-Machiavelli-Riassunto.jpg" alt="the prince">
+                                        <h3>Il Principe</h3>
+                                    </div>
+                                    <h4>Collection</h4>
+                                    <h5>University of Washington</h5>
+                                    <h4>Average Color at 2° in RGB</h4>
+                                    <div id="edge">
+                                        <div class=" color-title">Edge</div>
+                                        <div id="edge-color-text" class="rgb-color-text">252 215 120</div>
+                                    </div>
+                                    <div id="inset">
+                                        <div class=" color-title">Inset</div>
+                                        <div id="inset-color-text" class="rgb-color-text">252 214 162</div>
+                                    </div>
+                                    <div id="gutter">
+                                        <div class=" color-title">Edge</div>
+                                        <div id="gutter-color-text" class="rgb-color-text">252 209 150</div>
+                                    </div>
+                                    <h4>Publisher Info</h4>
+                                    <h5 id="publisher-name">American News Company</h5>
+                                    <h5 id="publisher-location">Seattle, WA, USA</h5>
+
+                                    <h4>Overall Condition</h4>
+                                    <h5 id="book-condition">Lendable</h5>
+
+                                    <h4>Damage</h4>
+                                    <h5 id="damages">Worn edges, yellowing, discoloring</h5>
+
+                                    <h4>History</h4>
+                                    <h5 id="history-provenance">Marginalia, minor written annotations</h5>
+
+                                    <div id="see-more" class="mb-4">
+                                        <a href="#" class="btn btn-sm btn-primary shadow-sm">
+                                            <i class=" text-white-50"></i>
+                                            More</a>
+                                    </div>
+                                </div>
+                                <div id="book4" class="shadow ">
+                                    <div>
+                                        <img id="book1-image" src="https://cultura.biografieonline.it/wp-content/uploads/2017/05/Il-Principe-Machiavelli-Riassunto.jpg" alt="the prince">
+                                        <h3>Il Principe</h3>
+                                    </div>
+                                    <h4>Collection</h4>
+                                    <h5>University of Washington</h5>
+                                    <h4>Average Color at 2° in RGB</h4>
+                                    <div id="edge">
+                                        <div class=" color-title">Edge</div>
+                                        <div id="edge-color-text" class="rgb-color-text">252 215 120</div>
+                                    </div>
+                                    <div id="inset">
+                                        <div class=" color-title">Inset</div>
+                                        <div id="inset-color-text" class="rgb-color-text">252 214 162</div>
+                                    </div>
+                                    <div id="gutter">
+                                        <div class=" color-title">Edge</div>
+                                        <div id="gutter-color-text" class="rgb-color-text">252 209 150</div>
+                                    </div>
+                                    <h4>Publisher Info</h4>
+                                    <h5 id="publisher-name">American News Company</h5>
+                                    <h5 id="publisher-location">Seattle, WA, USA</h5>
+
+                                    <h4>Overall Condition</h4>
+                                    <h5 id="book-condition">Lendable</h5>
+
+                                    <h4>Damage</h4>
+                                    <h5 id="damages">Worn edges, yellowing, discoloring</h5>
+
+                                    <h4>History</h4>
+                                    <h5 id="history-provenance">Marginalia, minor written annotations</h5>
+
+                                    <div id="see-more" class="mb-4">
+                                        <a href="#" class="btn btn-sm btn-primary shadow-sm">
+                                            <i class=" text-white-50"></i>
+                                            More</a>
+                                    </div>
+                                </div>
+                                <div id="book5" class="shadow ">
+                                    <div>
+                                        <img id="book1-image" src="https://cultura.biografieonline.it/wp-content/uploads/2017/05/Il-Principe-Machiavelli-Riassunto.jpg" alt="the prince">
+                                        <h3>Il Principe</h3>
+                                    </div>
+                                    <h4>Collection</h4>
+                                    <h5>University of Washington</h5>
+                                    <h4>Average Color at 2° in RGB</h4>
+                                    <div id="edge">
+                                        <div class=" color-title">Edge</div>
+                                        <div id="edge-color-text" class="rgb-color-text">252 215 120</div>
+                                    </div>
+                                    <div id="inset">
+                                        <div class=" color-title">Inset</div>
+                                        <div id="inset-color-text" class="rgb-color-text">252 214 162</div>
+                                    </div>
+                                    <div id="gutter">
+                                        <div class=" color-title">Edge</div>
+                                        <div id="gutter-color-text" class="rgb-color-text">252 209 150</div>
+                                    </div>
+                                    <h4>Publisher Info</h4>
+                                    <h5 id="publisher-name">American News Company</h5>
+                                    <h5 id="publisher-location">Seattle, WA, USA</h5>
+
+                                    <h4>Overall Condition</h4>
+                                    <h5 id="book-condition">Lendable</h5>
+
+                                    <h4>Damage</h4>
+                                    <h5 id="damages">Worn edges, yellowing, discoloring</h5>
+
+                                    <h4>History</h4>
+                                    <h5 id="history-provenance">Marginalia, minor written annotations</h5>
+
+                                    <div id="see-more" class="mb-4">
+                                        <a href="#" class="btn btn-sm btn-primary shadow-sm">
+                                            <i class=" text-white-50"></i>
+                                            More</a>
+                                    </div>
+                                </div>
+                                <div id="book6" class="shadow ">
+                                    <div>
+                                        <img id="book1-image" src="https://cultura.biografieonline.it/wp-content/uploads/2017/05/Il-Principe-Machiavelli-Riassunto.jpg" alt="the prince">
+                                        <h3>Il Principe</h3>
+                                    </div>
+                                    <h4>Collection</h4>
+                                    <h5>University of Washington</h5>
+                                    <h4>Average Color at 2° in RGB</h4>
+                                    <div id="edge">
+                                        <div class=" color-title">Edge</div>
+                                        <div id="edge-color-text" class="rgb-color-text">252 215 120</div>
+                                    </div>
+                                    <div id="inset">
+                                        <div class=" color-title">Inset</div>
+                                        <div id="inset-color-text" class="rgb-color-text">252 214 162</div>
+                                    </div>
+                                    <div id="gutter">
+                                        <div class=" color-title">Edge</div>
+                                        <div id="gutter-color-text" class="rgb-color-text">252 209 150</div>
+                                    </div>
+                                    <h4>Publisher Info</h4>
+                                    <h5 id="publisher-name">American News Company</h5>
+                                    <h5 id="publisher-location">Seattle, WA, USA</h5>
+
+                                    <h4>Overall Condition</h4>
+                                    <h5 id="book-condition">Lendable</h5>
+
+                                    <h4>Damage</h4>
+                                    <h5 id="damages">Worn edges, yellowing, discoloring</h5>
+
+                                    <h4>History</h4>
+                                    <h5 id="history-provenance">Marginalia, minor written annotations</h5>
+
+                                    <div id="see-more" class="mb-4">
+                                        <a href="#" class="btn btn-sm btn-primary shadow-sm">
+                                            <i class=" text-white-50"></i>
+                                            More</a>
                                     </div>
                                 </div>
 
