@@ -103,7 +103,7 @@ hr {
 
 #cards-horizontal {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(6, 1fr);
   grid-column-gap: 1em;
       margin-bottom: 1.5rem;
 }
@@ -126,8 +126,7 @@ hr {
   margin: 1em;
   max-height: 50%;
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-column-gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
   font-size: .75em;
   color: black;
   margin-left: 5%;
@@ -140,7 +139,6 @@ hr {
   max-height: 50%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-column-gap: 10px;
   font-size: .75em;
   color: black;
   margin-left: 5%;
@@ -153,7 +151,6 @@ hr {
   max-height: 50%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-column-gap: 10px;
   font-size: .75em;
   color: black;
   margin-left: 5%;
