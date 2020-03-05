@@ -89,6 +89,8 @@ hr {
   margin-left: .75em;
 }
 
+
+
 #book1 {
   max-width: 100%;
   max-height: 100%;
@@ -113,6 +115,23 @@ hr {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   font-size: .75em;
+  color: black;
+  margin-left: 5%;
+}
+
+#year {
+  margin-top: 10%;
+  margin-left: 5%;
+  max-height: 50%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#year-fields {
+
+  max-height: 50%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   color: black;
   margin-left: 5%;
 }
