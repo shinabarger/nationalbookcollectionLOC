@@ -35,7 +35,7 @@
 
 html {
     font-family: sans-serif;
-    line-height: 1.15;
+     .15;
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: transparent
 }
@@ -48,7 +48,6 @@ body {
     font-family: Poppins;
     font-size: 1rem;
     font-weight: 400;
-    line-height: 1.5;
     color: #858796;
     background-color: #fff
 }
@@ -63,16 +62,7 @@ hr {
     overflow: visible
 }
 
-h1 {
-  text-align: left;
-  font-size: 2em;
-  margin: 1em;
-  color: black;
-  font-weight: 10000;
-  font-family: Poppins;
-  margin-left: 5%;
-  margin-right: 20%;
-}
+
 
 #subtitle-text {
   font-size: 1em;
@@ -111,9 +101,82 @@ h1 {
 
 }
 
+#cards-horizontal {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 1em;
+      margin-bottom: 1.5rem;
+}
+
+#book1 {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: .75rem
+}
+
+#book1-image {
+  max-width: 100%;
+  max-height: 100%;
+   border-radius: .75em .75em 0px 0px; /* top left, top right, bottom right, bottom left */
+}
+
+#edge {
+  background-color: rgb(252 215 120) ;
+  padding: 10px ;
+  margin: 1em;
+  max-height: 50%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-column-gap: 10px;
+  font-size: .75em;
+  color: black;
+  margin-left: 5%;
+}
+
+#inset {
+  background-color: rgb(252 214 162);
+  padding: 10px ;
+  margin: 1em;
+  max-height: 50%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 10px;
+  font-size: .75em;
+  color: black;
+  margin-left: 5%;
+}
+
+#gutter {
+  background-color: rgb(252 209 150);
+  padding: 10px ;
+  margin: 1em;
+  max-height: 50%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 10px;
+  font-size: .75em;
+  color: black;
+  margin-left: 5%;
+}
+
+#see-more {
+  margin-left: -3%;
+  align-self: center;
+  margin-top: 20%;
+}
+
+
+.edge-text {
+  max-height: 50%;
+}
+
+.rgb-color-text {
+  text-align: right;
+}
+
 p {
     margin-top: 0;
-    margin-bottom: 1rem
+    font-size: 25px;
 }
 
 abbr[data-original-title], abbr[title] {
@@ -129,7 +192,7 @@ abbr[data-original-title], abbr[title] {
 address {
     margin-bottom: 1rem;
     font-style: normal;
-    line-height: inherit
+
 }
 
 dl, ol, ul {
@@ -232,8 +295,6 @@ table {
 }
 
 caption {
-    padding-top: .75rem;
-    padding-bottom: .75rem;
     color: #858796;
     text-align: left;
     caption-side: bottom
@@ -261,7 +322,7 @@ button, input, optgroup, select, textarea {
     margin: 0;
     font-family: inherit;
     font-size: inherit;
-    line-height: inherit
+
 }
 
 button, input {
@@ -317,7 +378,6 @@ legend {
     padding: 0;
     margin-bottom: .5rem;
     font-size: 1.5rem;
-    line-height: inherit;
     color: inherit;
     white-space: normal
 }
@@ -361,24 +421,59 @@ template {
     display: none!important
 }
 
+.h1, h1 {
+  text-align: left;
+  font-size: 2em;
+  margin: 1em;
+  color: black;
+  font-weight: 10000;
+  font-family: Poppins;
+  margin-left: 5%;
+  margin-right: 20%;
+  margin-bottom: 0;
+}
+
 .h2, h2 {
-    font-size: 2rem
+    font-size: 2rem;
+    margin: 0;
+    max-width: 45em;
 }
 
 .h3, h3 {
-    font-size: 1.75rem
+    font-size: 1.25rem;
+    font-weight: 2000;
+    color: black;
+    margin-left: 5%;
+    margin-bottom: 0;
+    padding: 0;
 }
 
 .h4, h4 {
-    font-size: 1.5rem
+    font-size: 1rem;
+    font-weight: 100;
+    margin-left: 5%;
+    margin-bottom: 0;
+    padding: 0;
 }
 
 .h5, h5 {
-    font-size: 1.25rem
+  font-size: 1rem;
+  font-weight: 100;
+  margin: 0;
+  padding: 0;
+  margin-left: 5%;
+  color: black;
+
 }
 
 .h6, h6 {
-    font-size: 1rem
+  font-size: .75rem;
+  font-weight: 100;
+  margin: 0;
+  padding: 0;
+  margin-left: 5%;
+  margin-bottom: 0;
+
 }
 
 .lead {
@@ -389,30 +484,29 @@ template {
 .display-1 {
     font-size: 6rem;
     font-weight: 300;
-    line-height: 1.2
+
 }
 
 .display-2 {
     font-size: 5.5rem;
     font-weight: 300;
-    line-height: 1.2
+
 }
 
 .display-3 {
     font-size: 4.5rem;
     font-weight: 300;
-    line-height: 1.2
+
 }
 
 .display-4 {
     font-size: 3.5rem;
     font-weight: 300;
-    line-height: 1.2
+
 }
 
 hr {
     margin-top: 1rem;
-    margin-bottom: 1rem;
     border: 0;
     border-top: 1px solid rgba(0, 0, 0, .1)
 }
@@ -451,7 +545,6 @@ hr {
 }
 
 .blockquote {
-    margin-bottom: 1rem;
     font-size: 1.25rem
 }
 
@@ -484,8 +577,7 @@ hr {
 }
 
 .figure-img {
-    margin-bottom: .5rem;
-    line-height: 1
+
 }
 
 .figure-caption {
@@ -572,13 +664,6 @@ pre code {
     padding-left: .75rem;
     margin-right: auto;
     margin-left: auto
-}
-
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: -.75rem;
-    margin-left: -.75rem
 }
 
 .no-gutters {
@@ -1089,10 +1174,7 @@ pre code {
         flex: 0 0 41.66667%;
         max-width: 41.66667%
     }
-    .col-lg-6 {
-        flex: 0 0 50%;
-        max-width: 50%
-    }
+
     .col-lg-7 {
         flex: 0 0 58.33333%;
         max-width: 58.33333%
@@ -1344,7 +1426,6 @@ pre code {
 
 .table {
     width: 100%;
-    margin-bottom: 1rem;
     color: #858796
 }
 
@@ -1629,10 +1710,8 @@ pre code {
     display: block;
     width: 100%;
     height: calc(1.5em + .75rem + 2px);
-    padding: .375rem .75rem;
     font-size: 1rem;
     font-weight: 400;
-    line-height: 1.5;
     color: #6e707e;
     background-color: #fff;
     background-clip: padding-box;
@@ -1705,21 +1784,20 @@ select.form-control:focus::-ms-value {
     padding-bottom: calc(.375rem + 1px);
     margin-bottom: 0;
     font-size: inherit;
-    line-height: 1.5
+
 }
 
 .col-form-label-lg {
     padding-top: calc(.5rem + 1px);
     padding-bottom: calc(.5rem + 1px);
     font-size: 1.25rem;
-    line-height: 1.5
 }
 
 .col-form-label-sm {
     padding-top: calc(.25rem + 1px);
     padding-bottom: calc(.25rem + 1px);
     font-size: .875rem;
-    line-height: 1.5
+
 }
 
 .form-control-plaintext {
@@ -1728,7 +1806,6 @@ select.form-control:focus::-ms-value {
     padding-top: .375rem;
     padding-bottom: .375rem;
     margin-bottom: 0;
-    line-height: 1.5;
     color: #858796;
     background-color: transparent;
     border: solid transparent;
@@ -1744,7 +1821,6 @@ select.form-control:focus::-ms-value {
     height: calc(1.5em + .5rem + 2px);
     padding: .25rem .5rem;
     font-size: .875rem;
-    line-height: 1.5;
     border-radius: .2rem
 }
 
@@ -1752,7 +1828,7 @@ select.form-control:focus::-ms-value {
     height: calc(1.5em + 1rem + 2px);
     padding: .5rem 1rem;
     font-size: 1.25rem;
-    line-height: 1.5;
+     ;
     border-radius: .3rem
 }
 
@@ -1836,7 +1912,7 @@ textarea.form-control {
     padding: .25rem .5rem;
     margin-top: .1rem;
     font-size: .875rem;
-    line-height: 1.5;
+     ;
     color: #fff;
     background-color: rgba(28, 200, 138, .9);
     border-radius: .35rem
@@ -1947,7 +2023,7 @@ textarea.form-control {
     padding: .25rem .5rem;
     margin-top: .1rem;
     font-size: .875rem;
-    line-height: 1.5;
+     ;
     color: #fff;
     background-color: rgba(231, 74, 59, .9);
     border-radius: .35rem
@@ -2113,7 +2189,7 @@ textarea.form-control {
     border: 1px solid transparent;
     padding: .375rem .75rem;
     font-size: 1rem;
-    line-height: 1.5;
+     ;
     border-radius: .35rem;
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
@@ -2665,14 +2741,14 @@ a.btn.disabled, fieldset:disabled a.btn {
 .btn-group-lg>.btn, .btn-lg {
     padding: .5rem 1rem;
     font-size: 1.25rem;
-    line-height: 1.5;
+     ;
     border-radius: .3rem
 }
 
 .btn-group-sm>.btn, .btn-sm {
     padding: .25rem .5rem;
     font-size: .875rem;
-    line-height: 1.5;
+     ;
     border-radius: .2rem
 }
 
@@ -3069,10 +3145,12 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
     position: relative;
     display: flex;
     width: 60%;
-    margin: 5em;
+
     border: 1px grey solid;
     border-radius: .35rem;
+    margin-top: 5em;
     margin-left: 5%;
+    margin-bottom: 5em;
 }
 
 .input-group>.custom-file, .input-group>.custom-select, .input-group>.form-control, .input-group>.form-control-plaintext {
@@ -3151,7 +3229,7 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
     margin-bottom: 0;
     font-size: 1rem;
     font-weight: 400;
-    line-height: 1.5;
+     ;
     color: #6e707e;
     text-align: center;
     white-space: nowrap;
@@ -3169,9 +3247,7 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
 }
 
 .input-group-lg>.custom-select, .input-group-lg>.form-control, .input-group-lg>.input-group-append>.btn, .input-group-lg>.input-group-append>.input-group-text, .input-group-lg>.input-group-prepend>.btn, .input-group-lg>.input-group-prepend>.input-group-text {
-    padding: .5rem 1rem;
     font-size: 1.25rem;
-    line-height: 1.5;
     border-radius: .3rem
 }
 
@@ -3182,7 +3258,7 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
 .input-group-sm>.custom-select, .input-group-sm>.form-control, .input-group-sm>.input-group-append>.btn, .input-group-sm>.input-group-append>.input-group-text, .input-group-sm>.input-group-prepend>.btn, .input-group-sm>.input-group-prepend>.input-group-text {
     padding: .25rem .5rem;
     font-size: .875rem;
-    line-height: 1.5;
+     ;
     border-radius: .2rem
 }
 
@@ -3356,7 +3432,7 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
     padding: .375rem 1.75rem .375rem .75rem;
     font-size: 1rem;
     font-weight: 400;
-    line-height: 1.5;
+     ;
     color: #6e707e;
     vertical-align: middle;
     background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3e%3cpath fill='%235a5c69' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") no-repeat right .75rem center/8px 10px;
@@ -3453,7 +3529,6 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
     height: calc(1.5em + .75rem + 2px);
     padding: .375rem .75rem;
     font-weight: 400;
-    line-height: 1.5;
     color: #6e707e;
     background-color: #fff;
     border: 1px solid #d1d3e2;
@@ -3469,7 +3544,6 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
     display: block;
     height: calc(1.5em + .75rem);
     padding: .375rem .75rem;
-    line-height: 1.5;
     color: #6e707e;
     content: "Browse";
     background-color: #eaecf4;
@@ -3744,7 +3818,6 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between
 }
 
 .navbar-brand {
@@ -3753,7 +3826,7 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
     padding-bottom: .3125rem;
     margin-right: 1rem;
     font-size: 1.25rem;
-    line-height: inherit;
+
     white-space: nowrap
 }
 
@@ -3794,7 +3867,7 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
 .navbar-toggler {
     padding: .25rem .75rem;
     font-size: 1.25rem;
-    line-height: 1;
+     ;
     background-color: transparent;
     border: 1px solid transparent;
     border-radius: .35rem
@@ -4109,7 +4182,6 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
 }
 
 .card-title {
-    margin-bottom: .75rem
 }
 
 .card-subtitle {
@@ -4130,15 +4202,9 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
 }
 
 .card-header {
-    padding: .75rem 1.25rem;
-    margin-bottom: 0;
     background-color: #f8f9fc;
-    border-bottom: 1px solid #e3e6f0
 }
 
-.card-header:first-child {
-    border-radius: calc(.35rem - 1px) calc(.35rem - 1px) 0 0
-}
 
 .card-header+.list-group .list-group-item:first-child {
     border-top: 0
@@ -4197,9 +4263,7 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
     flex-direction: column
 }
 
-.card-deck .card {
-    margin-bottom: .75rem
-}
+
 
 @media (min-width:576px) {
     .card-deck {
@@ -4352,7 +4416,7 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
     display: block;
     padding: .5rem .75rem;
     margin-left: -1px;
-    line-height: 1.25;
+    5;
     color: #4e73df;
     background-color: #fff;
     border: 1px solid #dddfeb
@@ -4401,7 +4465,7 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
 .pagination-lg .page-link {
     padding: .75rem 1.5rem;
     font-size: 1.25rem;
-    line-height: 1.5
+
 }
 
 .pagination-lg .page-item:first-child .page-link {
@@ -4417,7 +4481,7 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
 .pagination-sm .page-link {
     padding: .25rem .5rem;
     font-size: .875rem;
-    line-height: 1.5
+
 }
 
 .pagination-sm .page-item:first-child .page-link {
@@ -4435,7 +4499,7 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
     padding: .25em .4em;
     font-size: 75%;
     font-weight: 700;
-    line-height: 1;
+     ;
     text-align: center;
     white-space: nowrap;
     vertical-align: baseline;
@@ -5132,7 +5196,7 @@ a.badge-dark.focus, a.badge-dark:focus {
     float: right;
     font-size: 1.5rem;
     font-weight: 700;
-    line-height: 1;
+     ;
     color: #000;
     text-shadow: 0 1px 0 #fff;
     opacity: .5
@@ -5253,10 +5317,7 @@ a.close.disabled {
     max-height: calc(100% - 1rem)
 }
 
-.modal-dialog-scrollable .modal-content {
-    max-height: calc(100vh - 1rem);
-    overflow: hidden
-}
+
 
 .modal-dialog-scrollable .modal-footer, .modal-dialog-scrollable .modal-header {
     flex-shrink: 0
@@ -5284,26 +5345,12 @@ a.close.disabled {
     height: 100%
 }
 
-.modal-dialog-centered.modal-dialog-scrollable .modal-content {
-    max-height: none
-}
 
 .modal-dialog-centered.modal-dialog-scrollable::before {
     content: none
 }
 
-.modal-content {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    pointer-events: auto;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 1px solid rgba(0, 0, 0, .2);
-    border-radius: .3rem;
-    outline: 0
-}
+
 
 .modal-backdrop {
     position: fixed;
@@ -5340,13 +5387,12 @@ a.close.disabled {
 
 .modal-title {
     margin-bottom: 0;
-    line-height: 1.5
+
 }
 
 .modal-body {
     position: relative;
     flex: 1 1 auto;
-    padding: 1rem
 }
 
 .modal-footer {
@@ -5383,9 +5429,7 @@ a.close.disabled {
     .modal-dialog-scrollable {
         max-height: calc(100% - 3.5rem)
     }
-    .modal-dialog-scrollable .modal-content {
-        max-height: calc(100vh - 3.5rem)
-    }
+
     .modal-dialog-centered {
         min-height: calc(100% - 3.5rem)
     }
@@ -5417,7 +5461,7 @@ a.close.disabled {
     font-family: Nunito, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-style: normal;
     font-weight: 400;
-    line-height: 1.5;
+     ;
     text-align: left;
     text-align: start;
     text-decoration: none;
@@ -5530,7 +5574,7 @@ a.close.disabled {
     font-family: Nunito, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-style: normal;
     font-weight: 400;
-    line-height: 1.5;
+     ;
     text-align: left;
     text-align: start;
     text-decoration: none;
@@ -6173,9 +6217,7 @@ a.bg-dark:focus, a.bg-dark:hover, button.bg-dark:focus, button.bg-dark:hover {
     display: table-cell!important
 }
 
-.d-flex {
-    display: flex!important
-}
+
 
 .d-inline-flex {
     display: inline-flex!important
@@ -6374,17 +6416,11 @@ a.bg-dark:focus, a.bg-dark:hover, button.bg-dark:focus, button.bg-dark:hover {
     flex-direction: row!important
 }
 
-.flex-column {
-    flex-direction: column!important
-}
 
 .flex-row-reverse {
     flex-direction: row-reverse!important
 }
 
-.flex-column-reverse {
-    flex-direction: column-reverse!important
-}
 
 .flex-wrap {
     flex-wrap: wrap!important
@@ -6446,9 +6482,6 @@ a.bg-dark:focus, a.bg-dark:hover, button.bg-dark:focus, button.bg-dark:hover {
     align-items: flex-end!important
 }
 
-.align-items-center {
-    align-items: center!important
-}
 
 .align-items-baseline {
     align-items: baseline!important
@@ -7065,7 +7098,7 @@ a.bg-dark:focus, a.bg-dark:hover, button.bg-dark:focus, button.bg-dark:hover {
 }
 
 .shadow {
-    box-shadow: 0 .15rem 1.75rem 0 rgba(58, 59, 69, .15)!important
+    box-shadow: 0 .15rem 1.75rem 0 rgba(58, 59, 69, .15);
 }
 
 .shadow-lg {
@@ -7150,10 +7183,6 @@ a.bg-dark:focus, a.bg-dark:hover, button.bg-dark:focus, button.bg-dark:hover {
     pointer-events: auto;
     content: "";
     background-color: rgba(0, 0, 0, 0)
-}
-
-.m-0 {
-    margin: 0!important
 }
 
 .mt-0, .my-0 {
@@ -7245,7 +7274,7 @@ a.bg-dark:focus, a.bg-dark:hover, button.bg-dark:focus, button.bg-dark:hover {
 }
 
 .mb-4, .my-4 {
-    margin-bottom: 1.5rem!important;
+    margin-bottom: 1.5rem;
 }
 
 .ml-4, .mx-4 {
@@ -7336,17 +7365,12 @@ a.bg-dark:focus, a.bg-dark:hover, button.bg-dark:focus, button.bg-dark:hover {
     padding: 1rem!important
 }
 
-.pt-3, .py-3 {
-    padding-top: 1rem!important
-}
+
 
 .pr-3, .px-3 {
     padding-right: 1rem!important
 }
 
-.pb-3, .py-3 {
-    padding-bottom: 1rem!important
-}
 
 .pl-3, .px-3 {
     padding-left: 1rem!important
@@ -7603,21 +7627,8 @@ a.bg-dark:focus, a.bg-dark:hover, button.bg-dark:focus, button.bg-dark:hover {
     .ml-sm-5, .mx-sm-5 {
         margin-left: 3rem!important
     }
-    .p-sm-0 {
-        padding: 0!important
-    }
-    .pt-sm-0, .py-sm-0 {
-        padding-top: 0!important
-    }
-    .pr-sm-0, .px-sm-0 {
-        padding-right: 0!important
-    }
-    .pb-sm-0, .py-sm-0 {
-        padding-bottom: 0!important
-    }
-    .pl-sm-0, .px-sm-0 {
-        padding-left: 0!important
-    }
+
+
     .p-sm-1 {
         padding: .25rem!important
     }
@@ -8711,7 +8722,7 @@ a.bg-dark:focus, a.bg-dark:hover, button.bg-dark:focus, button.bg-dark:hover {
 }
 
 .font-weight-bold {
-    font-weight: 700!important
+    font-weight: 700;
 }
 
 .font-weight-bolder {
@@ -8724,10 +8735,6 @@ a.bg-dark:focus, a.bg-dark:hover, button.bg-dark:focus, button.bg-dark:hover {
 
 .text-white {
     color: #fff!important
-}
-
-.text-primary {
-    color: #4e73df!important
 }
 
 a.text-primary:focus, a.text-primary:hover {
@@ -8790,9 +8797,7 @@ a.text-dark:focus, a.text-dark:hover {
     color: #373840!important
 }
 
-.text-body {
-    color: #858796!important
-}
+
 
 .text-muted {
     color: #858796!important
@@ -8859,19 +8864,13 @@ a.text-dark:focus, a.text-dark:hover {
     img, tr {
         page-break-inside: avoid
     }
-    h2, h3, p {
-        orphans: 3;
-        widows: 3
-    }
-    h2, h3 {
-        page-break-after: avoid
-    }
+
+
     @page {
         size: a3
     }
 
     body {
-        min-width: 992px!important;
         font-family: 'Poppins';
     }
     .container {
@@ -8917,19 +8916,14 @@ a:focus {
     outline: 0
 }
 
-#wrapper {
-    display: flex
-}
 
-#wrapper #content-wrapper {
+#wrapper {
+  display: flex;
     background-color: #f8f9fc;
     width: 100%;
     overflow-x: hidden
 }
 
-#wrapper #content-wrapper #content {
-    flex: 1 0 auto
-}
 
 .container, .container-fluid {
     padding-left: 1.5rem;
@@ -8946,7 +8940,6 @@ a:focus {
     text-align: center;
     color: #fff;
     background: rgba(90, 92, 105, .5);
-    line-height: 46px
 }
 
 .scroll-to-top:focus, .scroll-to-top:hover {
@@ -9360,7 +9353,7 @@ a:focus {
     border-left: 1px solid #e3e6f0;
     border-right: 1px solid #e3e6f0;
     border-bottom: 1px solid #e3e6f0;
-    line-height: 1.3rem
+     .3rem
 }
 
 .topbar .dropdown-list .dropdown-item .dropdown-list-image {
@@ -9853,35 +9846,9 @@ a:focus {
     padding: .5rem 1rem
 }
 
-.card .card-header .dropdown {
-    line-height: 1
-}
 
-.card .card-header .dropdown .dropdown-menu {
-    line-height: 1.5
-}
 
-.card .card-header[data-toggle=collapse] {
-    text-decoration: none;
-    position: relative;
-    padding: .75rem 3.25rem .75rem 1.25rem
-}
 
-.card .card-header[data-toggle=collapse]::after {
-    position: absolute;
-    right: 0;
-    top: 0;
-    padding-right: 1.725rem;
-    line-height: 51px;
-    font-weight: 900;
-    content: '\f107';
-    font-family: 'Font Awesome 5 Free';
-    color: #d1d3e2
-}
-
-.card .card-header[data-toggle=collapse].collapsed {
-    border-radius: .35rem
-}
 
 .card .card-header[data-toggle=collapse].collapsed::after {
     content: '\f105'
@@ -9942,7 +9909,7 @@ a:focus {
 }
 
 form.user .custom-checkbox.small label {
-    line-height: 1.5rem
+     rem
 }
 
 form.user .form-control-user {
@@ -10025,7 +9992,7 @@ form.user .btn-user {
     color: #5a5c69;
     font-size: 7rem;
     position: relative;
-    line-height: 1;
+     ;
     width: 12.5rem
 }
 
@@ -10325,7 +10292,7 @@ footer.sticky-footer {
 }
 
 footer.sticky-footer .copyright {
-    line-height: 1;
+     ;
     font-size: .8rem
 }
 
