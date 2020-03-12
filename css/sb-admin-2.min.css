@@ -35,7 +35,7 @@
 
 html {
     font-family: sans-serif;
-     .15;
+    .15;
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: transparent
 }
@@ -62,116 +62,112 @@ hr {
     overflow: visible
 }
 
-
 #Machiavelli {
-  font-size: .8em;
-  margin-left: 20px;
-  margin-top: 5px;
+    font-size: .8em;
+    margin-left: 20px;
+    margin-top: 5px;
 }
 
 #search-books {
-  font-size: 1em;
-  font-family: Poppins;
-  color: white;
-  font-weight:lighter;
-  margin-left: 10%;
-  margin-right: 10%;
-  text-align: left;
-  font-weight: lighter;
-  font-weight: 100;
+    font-size: 1em;
+    font-family: Poppins;
+    color: white;
+    font-weight: lighter;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: left;
+    font-weight: lighter;
+    font-weight: 100;
 }
 
 #cards-horizontal {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-column-gap: 1em;
-  margin-bottom: 1.5rem;
-  margin-left: .75em;
-    border-radius: .75em .75em .75px .75px; /* top left, top right, bottom right, bottom left */
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column-gap: 1em;
+    margin-bottom: 1.5rem;
+    margin-left: .75em;
+    border-radius: .75em .75em .75px .75px;
+    /* top left, top right, bottom right, bottom left */
 }
 
 #view-raw-data {
-  margin-left: .75em;
-  margin-top: 5em;
-  padding-top: 5em;
+    margin-top: 5em;
+    padding-top: 5em;
 }
 
 #book1 {
     border-radius: .75em .75em 0px 0px;
 }
 
-
 #book1-image {
-  max-width: 100%;
-  max-height: 100%;
-  border-radius: .75em .75em 0px 0px; /* top left, top right, bottom right, bottom left */
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: .75em .75em 0px 0px;
+    /* top left, top right, bottom right, bottom left */
 }
 
 #edge {
-
-  padding: 10px ;
-  margin: 1em;
-  max-height: 50%;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  font-size: .75em;
-  color: black;
-  margin-left: 5%;
+    padding: 10px;
+    margin: 1em;
+    max-height: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-size: .75em;
+    color: black;
+    margin-left: 5%;
 }
 
 #year {
-  margin-top: 10%;
-  margin-left: 5%;
-  max-height: 50%;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+    margin-top: 10%;
+    margin-left: 5%;
+    max-height: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 #year-fields {
-
-  max-height: 50%;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  color: black;
-  margin-left: 5%;
+    max-height: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: black;
+    margin-left: 5%;
 }
 
 #inset {
-  background-color: rgb(252 214 162);
-  padding: 10px ;
-  margin: 1em;
-  max-height: 50%;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  font-size: .75em;
-  color: black;
-  margin-left: 5%;
+    background-color: rgb(252 214 162);
+    padding: 10px;
+    margin: 1em;
+    max-height: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-size: .75em;
+    color: black;
+    margin-left: 5%;
 }
 
 #gutter {
-  padding: 10px ;
-  margin: 1em;
-  max-height: 50%;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  font-size: .75em;
-  color: black;
-  margin-left: 5%;
+    padding: 10px;
+    margin: 1em;
+    max-height: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-size: .75em;
+    color: black;
+    margin-left: 5%;
 }
 
 #see-more {
-  margin-left: -3%;
-  align-self: center;
-  margin-top: 20%;
+    margin-left: -3%;
+    align-self: center;
+    margin-top: 20%;
 }
 
-
 .edge-text {
-  max-height: 50%;
+    max-height: 50%;
 }
 
 .rgb-color-text {
-  text-align: right;
+    text-align: right;
 }
 
 p {
@@ -192,7 +188,6 @@ abbr[data-original-title], abbr[title] {
 address {
     margin-bottom: 1rem;
     font-style: normal;
-
 }
 
 dl, ol, ul {
@@ -322,7 +317,6 @@ button, input, optgroup, select, textarea {
     margin: 0;
     font-family: inherit;
     font-size: inherit;
-
 }
 
 button, input {
@@ -422,16 +416,16 @@ template {
 }
 
 .top-landing-area {
-  margin-left: 2.5em;
-  margin-top: 10em;
+    margin-left: 2.5em;
+    margin-top: 10em;
 }
 
 .h1, h1 {
-  text-align: left;
-  color: black;
-  font-weight: 10000;
-  margin-bottom: 0;
-  margin-left: 0;
+    text-align: left;
+    color: black;
+    font-weight: 10000;
+    margin-bottom: 0;
+    margin-left: 0;
 }
 
 .h2, h2 {
@@ -465,31 +459,30 @@ template {
 }
 
 .h5, h5 {
-  font-size: 1rem;
-  font-weight: 100;
-  margin: 0;
-  padding: 0;
-  margin-left: 5%;
-  color: black;
-
+    font-size: 1rem;
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+    margin-left: 5%;
+    color: black;
 }
 
 .h6, h6 {
-  font-size: .75rem;
-  font-weight: 100;
-  margin: 0;
-  padding: 0;
-  margin-left: 5%;
-  margin-bottom: 0;
-
+    font-size: .75rem;
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+    margin-left: 5%;
+    margin-bottom: 0;
 }
 
 footer {
-  position:absolute;
-     bottom:0;
-     width:100%;
-     height:10px;   /* Height of the footer */
-     background:#6cf;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 10px;
+    /* Height of the footer */
+    background: #6cf;
 }
 
 .lead {
@@ -500,25 +493,21 @@ footer {
 .display-1 {
     font-size: 6rem;
     font-weight: 300;
-
 }
 
 .display-2 {
     font-size: 5.5rem;
     font-weight: 300;
-
 }
 
 .display-3 {
     font-size: 4.5rem;
     font-weight: 300;
-
 }
 
 .display-4 {
     font-size: 3.5rem;
     font-weight: 300;
-
 }
 
 hr {
@@ -592,9 +581,7 @@ hr {
     display: inline-block
 }
 
-.figure-img {
-
-}
+.figure-img {}
 
 .figure-caption {
     font-size: 90%;
@@ -1189,7 +1176,6 @@ pre code {
         flex: 0 0 41.66667%;
         max-width: 41.66667%
     }
-
     .col-lg-7 {
         flex: 0 0 58.33333%;
         max-width: 58.33333%
@@ -1799,7 +1785,6 @@ select.form-control:focus::-ms-value {
     padding-bottom: calc(.375rem + 1px);
     margin-bottom: 0;
     font-size: inherit;
-
 }
 
 .col-form-label-lg {
@@ -1812,7 +1797,6 @@ select.form-control:focus::-ms-value {
     padding-top: calc(.25rem + 1px);
     padding-bottom: calc(.25rem + 1px);
     font-size: .875rem;
-
 }
 
 .form-control-plaintext {
@@ -1843,7 +1827,7 @@ select.form-control:focus::-ms-value {
     height: calc(1.5em + 1rem + 2px);
     padding: .5rem 1rem;
     font-size: 1.25rem;
-     ;
+    ;
     border-radius: .3rem
 }
 
@@ -1927,7 +1911,7 @@ textarea.form-control {
     padding: .25rem .5rem;
     margin-top: .1rem;
     font-size: .875rem;
-     ;
+    ;
     color: #fff;
     background-color: rgba(28, 200, 138, .9);
     border-radius: .35rem
@@ -2038,7 +2022,7 @@ textarea.form-control {
     padding: .25rem .5rem;
     margin-top: .1rem;
     font-size: .875rem;
-     ;
+    ;
     color: #fff;
     background-color: rgba(231, 74, 59, .9);
     border-radius: .35rem
@@ -2204,7 +2188,6 @@ textarea.form-control {
     border: 1px solid transparent;
     padding: .375rem .75rem;
     font-size: 1rem;
-
     border-radius: .35rem;
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
@@ -2245,7 +2228,6 @@ a.btn.disabled, fieldset:disabled a.btn {
     color: #fff;
     background-color: #2e59d9;
     border-color: #2653d4;
-
 }
 
 .btn-primary.focus, .btn-primary:focus {
@@ -2756,14 +2738,14 @@ a.btn.disabled, fieldset:disabled a.btn {
 .btn-group-lg>.btn, .btn-lg {
     padding: .5rem 1rem;
     font-size: 1.25rem;
-     ;
+    ;
     border-radius: .3rem
 }
 
 .btn-group-sm>.btn, .btn-sm {
     padding: .25rem .5rem;
     font-size: .875rem;
-     ;
+    ;
     border-radius: .2rem
 }
 
@@ -3165,7 +3147,6 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
     margin-top: 5em;
     margin-left: -5px;
     margin-bottom: 7.5em;
-
 }
 
 .input-group>.custom-file, .input-group>.custom-select, .input-group>.form-control, .input-group>.form-control-plaintext {
@@ -3244,7 +3225,7 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
     margin-bottom: 0;
     font-size: 1rem;
     font-weight: 400;
-     ;
+    ;
     color: #6e707e;
     text-align: center;
     white-space: nowrap;
@@ -3273,7 +3254,7 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
 .input-group-sm>.custom-select, .input-group-sm>.form-control, .input-group-sm>.input-group-append>.btn, .input-group-sm>.input-group-append>.input-group-text, .input-group-sm>.input-group-prepend>.btn, .input-group-sm>.input-group-prepend>.input-group-text {
     padding: .25rem .5rem;
     font-size: .875rem;
-     ;
+    ;
     border-radius: .2rem
 }
 
@@ -3447,7 +3428,7 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
     padding: .375rem 1.75rem .375rem .75rem;
     font-size: 1rem;
     font-weight: 400;
-     ;
+    ;
     color: #6e707e;
     vertical-align: middle;
     background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3e%3cpath fill='%235a5c69' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") no-repeat right .75rem center/8px 10px;
@@ -3841,7 +3822,6 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
     padding-bottom: .3125rem;
     margin-right: 1rem;
     font-size: 1.25rem;
-
     white-space: nowrap
 }
 
@@ -3882,7 +3862,7 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
 .navbar-toggler {
     padding: .25rem .75rem;
     font-size: 1.25rem;
-     ;
+    ;
     background-color: transparent;
     border: 1px solid transparent;
     border-radius: .35rem
@@ -4196,8 +4176,7 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
     padding: 1.25rem
 }
 
-.card-title {
-}
+.card-title {}
 
 .card-subtitle {
     margin-top: -.375rem;
@@ -4219,7 +4198,6 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
 .card-header {
     background-color: #f8f9fc;
 }
-
 
 .card-header+.list-group .list-group-item:first-child {
     border-top: 0
@@ -4277,8 +4255,6 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
     display: flex;
     flex-direction: column
 }
-
-
 
 @media (min-width:576px) {
     .card-deck {
@@ -4480,7 +4456,6 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
 .pagination-lg .page-link {
     padding: .75rem 1.5rem;
     font-size: 1.25rem;
-
 }
 
 .pagination-lg .page-item:first-child .page-link {
@@ -4496,7 +4471,6 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
 .pagination-sm .page-link {
     padding: .25rem .5rem;
     font-size: .875rem;
-
 }
 
 .pagination-sm .page-item:first-child .page-link {
@@ -4514,7 +4488,7 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
     padding: .25em .4em;
     font-size: 75%;
     font-weight: 700;
-     ;
+    ;
     text-align: center;
     white-space: nowrap;
     vertical-align: baseline;
@@ -5211,7 +5185,7 @@ a.badge-dark.focus, a.badge-dark:focus {
     float: right;
     font-size: 1.5rem;
     font-weight: 700;
-     ;
+    ;
     color: #000;
     text-shadow: 0 1px 0 #fff;
     opacity: .5
@@ -5332,8 +5306,6 @@ a.close.disabled {
     max-height: calc(100% - 1rem)
 }
 
-
-
 .modal-dialog-scrollable .modal-footer, .modal-dialog-scrollable .modal-header {
     flex-shrink: 0
 }
@@ -5360,12 +5332,9 @@ a.close.disabled {
     height: 100%
 }
 
-
 .modal-dialog-centered.modal-dialog-scrollable::before {
     content: none
 }
-
-
 
 .modal-backdrop {
     position: fixed;
@@ -5402,7 +5371,6 @@ a.close.disabled {
 
 .modal-title {
     margin-bottom: 0;
-
 }
 
 .modal-body {
@@ -5444,7 +5412,6 @@ a.close.disabled {
     .modal-dialog-scrollable {
         max-height: calc(100% - 3.5rem)
     }
-
     .modal-dialog-centered {
         min-height: calc(100% - 3.5rem)
     }
@@ -5476,7 +5443,7 @@ a.close.disabled {
     font-family: Nunito, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-style: normal;
     font-weight: 400;
-     ;
+    ;
     text-align: left;
     text-align: start;
     text-decoration: none;
@@ -5589,7 +5556,7 @@ a.close.disabled {
     font-family: Nunito, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-style: normal;
     font-weight: 400;
-     ;
+    ;
     text-align: left;
     text-align: start;
     text-decoration: none;
@@ -6232,8 +6199,6 @@ a.bg-dark:focus, a.bg-dark:hover, button.bg-dark:focus, button.bg-dark:hover {
     display: table-cell!important
 }
 
-
-
 .d-inline-flex {
     display: inline-flex!important
 }
@@ -6431,11 +6396,9 @@ a.bg-dark:focus, a.bg-dark:hover, button.bg-dark:focus, button.bg-dark:hover {
     flex-direction: row!important
 }
 
-
 .flex-row-reverse {
     flex-direction: row-reverse!important
 }
-
 
 .flex-wrap {
     flex-wrap: wrap!important
@@ -6496,7 +6459,6 @@ a.bg-dark:focus, a.bg-dark:hover, button.bg-dark:focus, button.bg-dark:hover {
 .align-items-end {
     align-items: flex-end!important
 }
-
 
 .align-items-baseline {
     align-items: baseline!important
@@ -7113,8 +7075,7 @@ a.bg-dark:focus, a.bg-dark:hover, button.bg-dark:focus, button.bg-dark:hover {
 }
 
 .shadow {
-box-shadow: 0 .125rem 1.75rem 0 rgba(58, 59, 69, .2);
-
+    box-shadow: 0 .125rem 1.75rem 0 rgba(58, 59, 69, .2);
 }
 
 .shadow-lg {
@@ -7381,12 +7342,9 @@ box-shadow: 0 .125rem 1.75rem 0 rgba(58, 59, 69, .2);
     padding: 1rem!important
 }
 
-
-
 .pr-3, .px-3 {
     padding-right: 1rem!important
 }
-
 
 .pl-3, .px-3 {
     padding-left: 1rem!important
@@ -7643,8 +7601,6 @@ box-shadow: 0 .125rem 1.75rem 0 rgba(58, 59, 69, .2);
     .ml-sm-5, .mx-sm-5 {
         margin-left: 3rem!important
     }
-
-
     .p-sm-1 {
         padding: .25rem!important
     }
@@ -8813,8 +8769,6 @@ a.text-dark:focus, a.text-dark:hover {
     color: #373840!important
 }
 
-
-
 .text-muted {
     color: #858796!important
 }
@@ -8880,12 +8834,9 @@ a.text-dark:focus, a.text-dark:hover {
     img, tr {
         page-break-inside: avoid
     }
-
-
     @page {
         size: a3
     }
-
     body {
         font-family: 'Poppins';
     }
@@ -8932,14 +8883,12 @@ a:focus {
     outline: 0
 }
 
-
 #wrapper {
-  display: flex;
+    display: flex;
     background-color: #f8f9fc;
     width: 100%;
     overflow-x: hidden
 }
-
 
 .container, .container-fluid {
     padding-left: 1.5rem;
@@ -9369,7 +9318,7 @@ a:focus {
     border-left: 1px solid #e3e6f0;
     border-right: 1px solid #e3e6f0;
     border-bottom: 1px solid #e3e6f0;
-     .3rem
+    .3rem
 }
 
 .topbar .dropdown-list .dropdown-item .dropdown-list-image {
@@ -9862,10 +9811,6 @@ a:focus {
     padding: .5rem 1rem
 }
 
-
-
-
-
 .card .card-header[data-toggle=collapse].collapsed::after {
     content: '\f105'
 }
@@ -9925,7 +9870,7 @@ a:focus {
 }
 
 form.user .custom-checkbox.small label {
-     rem
+    rem
 }
 
 form.user .form-control-user {
@@ -10008,7 +9953,7 @@ form.user .btn-user {
     color: #5a5c69;
     font-size: 7rem;
     position: relative;
-     ;
+    ;
     width: 12.5rem
 }
 
@@ -10302,10 +10247,8 @@ form.user .btn-user {
     animation: noise-anim-2 3s infinite linear alternate-reverse
 }
 
-
-
 footer.sticky-footer .copyright {
-     ;
+    ;
     font-size: .8rem
 }
 
@@ -10314,42 +10257,36 @@ body.sidebar-toggled footer.sticky-footer {
 }
 
 @media only screen and (max-width: 600px) {
-
-
-#cards-horizontal {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-column-gap: 1em;
-  margin-bottom: 3rem;
-  margin-left: .75em;
-
-}
-#search-books {
-  font-size: 1em;
-  font-family: Poppins;
-  color: white;
-  font-weight:lighter;
-  text-align: left;
-  font-weight: lighter;
-  font-weight: 100;
-}
-
-.btn-primary {
-    color: #fff;
-    background-color: #4e73df;
-}
-.input-group {
-    position: relative;
-    display: flex;
-    width: 100%;
-    border: 1px grey solid;
-    border-radius: .35rem;
-    margin-top: 5em;
-    margin-left: -5px;
-    margin-bottom: 7.5em;
-      border-radius: .75em .75em .75px .75px; /* top left, top right, bottom right, bottom left */
-}
-
-
-
+    #cards-horizontal {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 1em;
+        margin-bottom: 3rem;
+        margin-left: .75em;
+    }
+    #search-books {
+        font-size: 1em;
+        font-family: Poppins;
+        color: white;
+        font-weight: lighter;
+        text-align: left;
+        font-weight: lighter;
+        font-weight: 100;
+    }
+    .btn-primary {
+        color: #fff;
+        background-color: #4e73df;
+    }
+    .input-group {
+        position: relative;
+        display: flex;
+        width: 100%;
+        border: 1px grey solid;
+        border-radius: .35rem;
+        margin-top: 5em;
+        margin-left: -5px;
+        margin-bottom: 7.5em;
+        border-radius: .75em .75em .75px .75px;
+        /* top left, top right, bottom right, bottom left */
+    }
 }
